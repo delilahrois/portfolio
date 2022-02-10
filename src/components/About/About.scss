@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.about {
+  height: 70%;
+  font-family: $font;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-txt-container {
+  height: 50%;
+  width: fit-content;
+  font-size: $small-font;
+}
+
+img {
+  height: 40%;
+  border-radius: 40%;
+}
