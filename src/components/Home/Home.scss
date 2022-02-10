@@ -26,3 +26,20 @@
     100% {opacity: 1;}
   }
 }
+
+.enter-btn {
+  border: none;
+  font-size: $smaller-font;
+  font-family: $font;
+  padding: 0 4rem;
+  border-radius: 5px;
+  background-color: magenta;
+  color: black;
+  margin: 10% 0;
+  cursor: pointer;
+}
+
+.enter-btn:hover {
+  transform: rotate(180deg);
+  transition: all 0.8s ease-in-out;
+}

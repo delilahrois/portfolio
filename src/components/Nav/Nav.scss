@@ -22,9 +22,8 @@
     font-size: $small-font;
   }
   a > p:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     color: white;
-    transition: 0.28s ease-in-out;
     transition: transform 0.28s ease-in-out;
   }
 }
