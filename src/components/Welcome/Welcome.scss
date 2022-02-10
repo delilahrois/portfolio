@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.welcome-container {
+  border: 2px solid pink;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $huge;
+}
+
+.welcome-txt {
+  color: white;
+  // transform: scale(2);
+  // transition: transform 4s ease-in-out;
+}
