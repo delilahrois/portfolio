@@ -2,18 +2,30 @@
   border: 2px solid red;
   display: flex;
   justify-content: space-between;
-  height: 30%;
+  height: 20%;
   h1 {
     font-size: 4em;
+    border: 2px solid green;
   }
   h2 {
     font-size: 2em;
     color: white;
+    border: 2px solid orange;
   }
   a {
     text-decoration: none;
     color: magenta;
   }
+}
+
+.header-name-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  justify-content: center;
+  border: 2px solid yellow;
+  height: 100%;
+  width: 50%;
 }
 
 .header-nav-container {
@@ -22,6 +34,7 @@
   height: 100%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   a {
     text-decoration: none;
     color: magenta;
