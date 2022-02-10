@@ -11,6 +11,10 @@
   color: white;
   font-family: $font;
   padding: 10% 0;
-  // transform: scale(2);
-  // transition: transform 4s ease-in-out;
+  animation: fade 4s linear;
+}
+
+@keyframes fade {
+  0%,100% {opacity: 0;}
+  50% {opacity: 1;}
 }

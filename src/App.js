@@ -16,7 +16,7 @@ const App = () => {
   
     setTimeout(() => {
       setPage(<Home/>)
-    }, 2000)
+    }, 4000)
 
   }
 
