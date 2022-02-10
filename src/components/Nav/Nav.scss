@@ -1,3 +1,29 @@
 .header {
-  border: 2px solid pink;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 2em;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: magenta;
+  }
+}
+
+.header-nav-container {
+  border: 2px solid blue;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    text-decoration: none;
+    color: magenta;
+  }
 }
