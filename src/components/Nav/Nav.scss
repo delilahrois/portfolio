@@ -1,8 +1,11 @@
+@import '../../styles/variables.scss';
+
 .header {
   border: 2px solid red;
   display: flex;
   justify-content: space-between;
   height: 20%;
+  font-family: $font;
   h1 {
     font-size: 4em;
     border: 2px solid green;
