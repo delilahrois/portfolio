@@ -5,9 +5,16 @@
   font-family: $font;
   color: white;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  overflow: hidden;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 15%;
 }
 
 .about-txt-container {
@@ -16,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // justify-items: center;
+  justify-items: center;
   justify-content: space-around;
   width: fit-content;
   h1 {
@@ -29,16 +36,36 @@
 
 .skills {
   color: aqua;
+  font-size: $small-font;
+  margin-bottom: 5%;
 }
 
 .skills-list {
   color: magenta;
 }
+
+.subheader {
+  color: springgreen;
+  animation: spread 5s linear;
+  animation-fill-mode: forwards;
+  margin-bottom: 2%;
+}
+
+.dramatic {
+  color: magenta;
+}
+
 ::selection {
   color: springgreen;
 }
 
 img {
   height: 40%;
-  border-radius: 50%;
+  border-radius: 5px;
+  margin: 1.5% 0;
+}
+
+@keyframes spread {
+  0% { letter-spacing: 0.2rem }
+  100% { letter-spacing: 1rem }
 }
