@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.contact {
+  height: 70%;
+  font-family: $font;
+  color: white;
+  display: flex;
+  justify-content: center;
+  ::selection {
+    color: magenta;
+  }
+}
+
+.contact-header {
+  font-size: $medium-font;
+  height: fit-content;
+  color: aqua;
+}
+
+.contact-header:hover {
+  transform: rotate(180deg);
+  transition: transform 1s ease-in-out;
+}
+
+.contact-info {
+  padding: 5%;
+  p {
+    margin: 50% 0;
+  }
+}
