@@ -13,10 +13,20 @@
 .about-txt-container {
   height: 50%;
   width: fit-content;
-  font-size: $small-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: fit-content;
+  h1 {
+    font-size: $medium-font;
+  }
+  p {
+    font-size: $small-font;
+  }
 }
 
 img {
   height: 40%;
-  border-radius: 40%;
+  border-radius: 50%;
 }
