@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 import Home from './components/Home/Home';
-import Nav from './components/Nav/Nav';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
@@ -27,7 +26,6 @@ const App = () => {
 
   return (
     <div className="app">
-      <Nav/>
       <Routes>
         <Route path="/" element={page}></Route>
         <Route path="/projects" element={<Projects/>}></Route>

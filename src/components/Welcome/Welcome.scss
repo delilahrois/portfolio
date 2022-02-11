@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .welcome-container {
-  height: 70%;
+  height: 90%;
   display: flex;
   justify-content: center;
   font-size: $huge;
@@ -10,7 +10,7 @@
 .welcome-txt {
   color: white;
   font-family: $font;
-  padding: 10% 0;
+  padding: 20% 0;
   animation: fade 4s linear;
 }
 
