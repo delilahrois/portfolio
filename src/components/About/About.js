@@ -10,10 +10,10 @@ const About = () => {
       <div className="about">
 
         <div className="skills-container">
-          <h1 className="skills">S k i l l s </h1>
+          <h1 className="skills">Skills </h1>
           <p className="skills-list">JavaScript | React.js | Router | Redux | Cypress | HTML5 | CSS3 | Sass | </p>
         </div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Fall_foliage_Vermont_banner.jpg"></img>
+        <img className="vermont-img" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Fall_foliage_Vermont_banner.jpg"></img>
         <div className="about-txt-container">
           <h1 className="subheader">Who I am</h1>
           <p className="dramatic">I've always been a creator.</p>

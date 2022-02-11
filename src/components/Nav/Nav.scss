@@ -1,8 +1,10 @@
 @import '../../styles/variables.scss';
 
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  position: sticky;
   height: 20%;
   font-family: $font;
   h1 {

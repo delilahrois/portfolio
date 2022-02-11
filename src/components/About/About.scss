@@ -1,12 +1,12 @@
 @import '../../styles/variables.scss';
 
 .about {
-  height: 70%;
   font-family: $font;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: scroll;
 }
 
 .skills-container {
@@ -18,25 +18,26 @@
 }
 
 .about-txt-container {
-  height: 80%;
   max-width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
   justify-content: space-around;
-  width: fit-content;
+  // width: fit-content;
   h1 {
     font-size: $small-font;
   }
   p {
     font-size: 1.5rem;
+    padding: 1% 0;
   }
 }
 
 .skills {
   color: aqua;
   font-size: $small-font;
+  letter-spacing: 1rem;
   margin-bottom: 5%;
 }
 
@@ -46,8 +47,7 @@
 
 .subheader {
   color: springgreen;
-  animation: spread 5s linear;
-  animation-fill-mode: forwards;
+  letter-spacing: 1rem;
   margin-bottom: 2%;
 }
 
@@ -56,16 +56,16 @@
 }
 
 ::selection {
-  color: springgreen;
+  color: pink;
 }
 
-img {
-  height: 40%;
+.vermont-img {
+  width: 70%;
   border-radius: 5px;
   margin: 1.5% 0;
 }
 
-@keyframes spread {
-  0% { letter-spacing: 0.2rem }
-  100% { letter-spacing: 1rem }
-}
+// @keyframes spread {
+//   0% { letter-spacing: 0.2rem }
+//   100% { letter-spacing: 1rem }
+// }
