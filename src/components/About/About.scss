@@ -24,7 +24,6 @@
   align-items: center;
   justify-items: center;
   justify-content: space-around;
-  // width: fit-content;
   h1 {
     font-size: $small-font;
   }
@@ -64,8 +63,3 @@
   border-radius: 5px;
   margin: 1.5% 0;
 }
-
-// @keyframes spread {
-//   0% { letter-spacing: 0.2rem }
-//   100% { letter-spacing: 1rem }
-// }

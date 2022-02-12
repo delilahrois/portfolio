@@ -18,7 +18,6 @@
   display: flex;
   align-items: center;
   color: aqua;
-  // animation: fade-in 4s linear;
 }
 
 @keyframes fade-in {
@@ -50,8 +49,6 @@
   height: 6rem;
   cursor: pointer;
   border-radius: 50px;
-  // animation: bounce 2.5s ease-in-out;
-  // animation-iteration-count: infinite;
 }
 
 .icon:hover {
@@ -63,7 +60,3 @@
   cursor: pointer;
 }
 
-// @keyframes bounce {
-//   0% { height: 6rem }
-//   50% { height: 7rem }
-// }
