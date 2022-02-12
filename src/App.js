@@ -31,8 +31,6 @@ const App = () => {
         <Route path="/projects" element={<Projects/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
-
-        {/* <Route path="/github"></Route> */}
       </Routes>
     </div>
   )
