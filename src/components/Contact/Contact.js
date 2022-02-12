@@ -1,7 +1,6 @@
 import React from 'react';
 import './Contact.scss';
 import Nav from '../Nav/Nav';
-import { Link } from 'react-router-dom';
 
 const Contact = () => {
 

@@ -9,6 +9,8 @@ const Projects = () => {
       <Nav/>
       <div className="projects">
         <p>Projects</p>
+        <p>Another project</p>
+        <p>Yet another</p>
       </div>
     </>
   )
