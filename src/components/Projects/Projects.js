@@ -13,15 +13,15 @@ const Projects = () => {
       <Nav/>
       <div className="projects-container">
         <div className="project">
-          <button onClick={() => directUser('https://delilahrois.github.io/fantasy-fellowship/')}>Fantasy Fellowship</button>
+          <button onClick={() => directUser('https://delilahrois.github.io/fantasy-fellowship/')}>fantasy fellowship</button>
 
         </div>
         <div className="project">
-          <button onClick={() => directUser('https://freetomorrow.netlify.app/')}>Free Tomorrow?</button>
+          <button onClick={() => directUser('https://freetomorrow.netlify.app/')}>free tomorrow?</button>
 
         </div>
         <div className="project">
-          <button onClick={() => directUser('https://github.com/delilahrois/under-a-tack')}>Under A Tack!</button>
+          <button onClick={() => directUser('https://github.com/delilahrois/under-a-tack')}>under a tack!</button>
 
         </div>
       </div>
