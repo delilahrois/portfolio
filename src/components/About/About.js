@@ -11,7 +11,9 @@ const About = () => {
 
         <div className="skills-container">
           <h1 className="skills">Skills </h1>
-          <p className="skills-list">JavaScript | React.js | Router | Redux | Cypress | HTML | CSS | Sass | Mocha | Chai | Express | </p>
+          <p className="skills-list">JavaScript | React.js | Router | Cypress | HTML | CSS | Sass | Mocha | Chai | Express </p>
+          <p className="skills-learning">Currently Learning...</p>
+          <p className="skills-learning">Redux | TypeScript | PostgreSQL </p>
         </div>
         <img className="vermont-img" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Fall_foliage_Vermont_banner.jpg"></img>
         <div className="about-txt-container">
