@@ -10,25 +10,25 @@ import Welcome from './components/Welcome/Welcome';
 
 const App = () => {
 
-  const [page, setPage] = useState(<Welcome />);
+  // const [page, setPage] = useState(<Welcome />);
 
-  const loadingElement = () => {
+  // const loadingElement = () => {
   
-    setTimeout(() => {
-      setPage(<Enter/>)
-    }, 4000)
+  //   setTimeout(() => {
+  //     setPage(<Enter/>)
+  //   }, 4000)
 
-  }
+  // }
 
-  useEffect(() => {
-    loadingElement()
-  }, [])
+  // useEffect(() => {
+  //   loadingElement()
+  // }, [])
 
 
   return (
     <div className="app">
       <Routes>
-        <Route path="/" element={page}></Route>
+        <Route path="/" element={<Enter/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/projects" element={<Projects/>}></Route>
         <Route path="/about" element={<About/>}></Route>

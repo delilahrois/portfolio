@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <Nav/>
       <div className="contact">
-      <h1 className="contact-header">Let's connect!</h1>
+      <h1 className="contact-header">let's connect!</h1>
       <div className="contact-info">
         <img className="email-icon" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png" onClick={() => window.location.replace('mailto:delilahrosedev@gmail.com')}></img>
         <p>delilahrosedev@gmail.com</p>

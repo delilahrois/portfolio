@@ -5,7 +5,7 @@ const Welcome = () => {
 
   return (
     <div className="welcome-container">
-      <h1 className="welcome-txt">Welcome</h1>
+      <h1 className="welcome-txt">welcome</h1>
     </div>
   )
 }
