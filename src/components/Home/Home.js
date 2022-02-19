@@ -1,16 +1,16 @@
-import React from 'react';
 import './Home.scss';
+import Nav from '../Nav/Nav';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
 
-
   return (
-    <div className="home">
-      <div className="home-txt-container">
-        <h1>My name is Delilah and I'm a frontend software developer.</h1>
-        <p>Curious about what I do?</p>
-        <Link to="/about"><button className="enter-btn">E n t e r</button></Link>
+    <div>
+      <Nav/>
+      <div className="home">
+        <Link to="/about"><button className="homepg-nav-btn">About</button></Link>
+        <Link to="/projects"><button className="homepg-nav-btn">Projects</button></Link>
+        <Link to="/contact"><button className="homepg-nav-btn">Contact</button></Link>
       </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.scss';
+import Enter from './components/Enter/Enter';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
@@ -14,7 +15,7 @@ const App = () => {
   const loadingElement = () => {
   
     setTimeout(() => {
-      setPage(<Home/>)
+      setPage(<Enter/>)
     }, 4000)
 
   }
@@ -28,6 +29,7 @@ const App = () => {
     <div className="app">
       <Routes>
         <Route path="/" element={page}></Route>
+        <Route path="/home" element={<Home/>}></Route>
         <Route path="/projects" element={<Projects/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>

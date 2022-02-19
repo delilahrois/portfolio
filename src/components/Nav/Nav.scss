@@ -4,8 +4,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 2% 0;
   position: sticky;
-  height: 20%;
+  background-color: black;
+  top: 0;
+  height: 25%;
   font-family: $font;
   h1 {
     font-size: $large-font;

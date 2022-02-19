@@ -8,10 +8,19 @@ const Projects = () => {
   return (
     <>
       <Nav/>
-      <div className="projects">
-        <Link>Fantasy Fellowship</Link>
-        <Link>Free Tomorrow?</Link>
-        <Link>Under A Tack!</Link>
+      <div className="projects-container">
+        <div className="project">
+          <Link to="https://delilahrois.github.io/fantasy-fellowship/">Fantasy Fellowship</Link>
+
+        </div>
+        <div className="project">
+          <Link to="https://freetomorrow.netlify.app/">Free Tomorrow?</Link>
+
+        </div>
+        <div className="project">
+          <Link to="https://github.com/delilahrois/under-a-tack">Under A Tack!</Link>
+
+        </div>
       </div>
     </>
   )
