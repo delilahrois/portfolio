@@ -22,7 +22,7 @@ const Nav = () => {
       <header className="header">
         <div className="header-name-container">
           <Link to="/home"><h1>Delilah Rose</h1></Link>
-          <h2>Software Developer</h2>
+          <h2>software developer</h2>
         </div>
         <div className="header-nav-container">
           <Link to="/projects"><p>my work</p></Link>
