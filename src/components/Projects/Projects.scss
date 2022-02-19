@@ -1,29 +1,33 @@
 @import '../../styles/variables.scss';
 
 .projects-container {
+  padding: 10% 0;
   color: white;
   font-family: $font;
-  height: 70%;
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   grid-template-columns: 3;
 }
 
 .project {
-  // border: 2px solid yellow;
   height: 100%;
   width: 33%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+  button {
+    border: 2px solid white;
+    background-color: black;
+    color: springgreen;
+    font-family: $font;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px white;
   }
-  a:hover {
-    color: aqua;
+  button:hover {
     transform: scale(1.1);
+    color: aqua;
+    box-shadow: 0px 0px 25px 5px white;
   }
 }

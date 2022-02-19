@@ -2,8 +2,9 @@
 
 .about {
   font-family: $font;
-  height: 100vh;
-  padding: 0 0 10% 0;
+  height: 100%;
+  background-color: black;
+  padding: 0 0 5% 0;
   color: white;
   display: flex;
   flex-direction: column;
@@ -31,9 +32,10 @@
   line-height: 1.8rem;
   h1 {
     font-size: $small-font;
+    line-height: 6.5rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 1% 0;
   }
 }
