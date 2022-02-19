@@ -25,9 +25,9 @@ const Nav = () => {
           <h2>Software Developer</h2>
         </div>
         <div className="header-nav-container">
-          <Link to="/projects"><p>Projects</p></Link>
-          <Link to="/about"><p>About</p></Link>
-          <Link to="/contact"><p>Contact</p></Link>
+          <Link to="/projects"><p>projects</p></Link>
+          <Link to="/about"><p>about</p></Link>
+          <Link to="/contact"><p>contact</p></Link>
         </div>
       </header>
     )

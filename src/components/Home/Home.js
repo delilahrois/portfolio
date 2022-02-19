@@ -8,9 +8,9 @@ const Home = () => {
     <div>
       <Nav/>
       <div className="home">
-        <Link to="/about"><button className="homepg-nav-btn">About</button></Link>
-        <Link to="/projects"><button className="homepg-nav-btn">Projects</button></Link>
-        <Link to="/contact"><button className="homepg-nav-btn">Contact</button></Link>
+        <Link to="/about"><button className="homepg-nav-btn">about me</button></Link>
+        <Link to="/projects"><button className="homepg-nav-btn">my work</button></Link>
+        <Link to="/contact"><button className="homepg-nav-btn">let's connect</button></Link>
       </div>
     </div>
   )
