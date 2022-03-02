@@ -15,7 +15,7 @@ const Home = () => {
 
         <p>I love to flex my creative problem solving muscles and be part of a dynamic team of thinkers, doers and lifelong learners! I am eager to begin working on projects that will better the lives of humans and the world around us.</p>
 
-        <p>I'm passionate about sustainability, equity and inclusion. I believe we are entering a new age of tech and am excited to see more diversity in this space. I hope to use my skills as a developer to make a positive impact, whether environmental, social, or economic. If you think I'd be a good fit for your team, please don't hesitate to <Link to="/contact">reach out.</Link></p>
+        <p>I'm dedicated to sustainability, equity and inclusion. I believe we are entering a new age of tech and am excited to see more diversity in this space. I hope to use my skills as a developer to make a positive impact, whether environmental, social, or economic. If you think I'd be a good fit for your team, please don't hesitate to <Link to="/contact">reach out.</Link></p>
        </div>
       </div>
     </div>
