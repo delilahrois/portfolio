@@ -35,12 +35,6 @@ const About = () => {
               <p className="skills-list">Express.js | Node.js | PostgreSQL | Knex.js </p>
               <h1></h1>
             </div>
-
-
-          <h1 className="subheader">Where I'm going</h1>
-          <p>I am currently seeking a role that will allow me to flex my creative problem solving muscles and be part of a dynamic team of thinkers, doers and lifelong learners! I am eager to begin working on a project that will better the lives of humans and the world around us.</p>
-
-          <p>I am passionate about sustainability, equity and inclusion. I believe we are entering a new age of tech and am excited to see more diversity in this space. I hope to use my skills as a developer to make a positive impact, whether environmental, social, or economic. If you think I'd be a good fit for your team, please don't hesitate to <Link to="/contact">reach out.</Link></p>
         </div>
       </div>
     </div>
