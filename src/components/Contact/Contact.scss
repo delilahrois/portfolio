@@ -1,9 +1,8 @@
 @import '../../styles/variables.scss';
 
 .contact {
-  background-color: black;
   font-family: $font;
-  color: white;
+  color: black;
   display: flex;
   padding: 1% 0;
   flex-direction: column;
@@ -18,7 +17,6 @@
   height: 30%;
   display: flex;
   align-items: center;
-  color: aqua;
   padding: 5% 0;
 }
 

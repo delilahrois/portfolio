@@ -3,25 +3,25 @@ import { Link, useLocation } from 'react-router-dom';
 import './Nav.scss';
 
 const Nav = () => {
-  const location = useLocation().pathname;
+  // const location = useLocation().pathname;
 
-  if(location === '/home') {
-    return (
-      <header className="header">
-        <div className="header-name-container">
-        <Link to="/"><h1>Delilah Rose</h1></Link>
-        <h2>software developer</h2>
-        </div>
-        <div className="header-nav-container">
+  // if(location === '/home') {
+  //   return (
+  //     <header className="header">
+  //       <div className="header-name-container">
+  //       <Link to="/"><h1>Delilah Rose</h1></Link>
+  //       <h2>software developer</h2>
+  //       </div>
+  //       <div className="header-nav-container">
         
-        </div>
-      </header>
-    )
-  } else {
+  //       </div>
+  //     </header>
+  //   )
+  // } else {
     return (
       <header className="header">
         <div className="header-name-container">
-          <Link to="/home"><h1>Delilah Rose</h1></Link>
+          <Link to="/"><h1>Delilah Rose</h1></Link>
           <h2>software developer</h2>
         </div>
         <div className="header-nav-container">
@@ -32,6 +32,6 @@ const Nav = () => {
       </header>
     )
   }
-}
+// }
 
 export default Nav;

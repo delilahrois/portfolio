@@ -4,7 +4,6 @@
   padding: 10% 0;
   color: white;
   font-family: $font;
-  background-color: black;
   display: flex;
   justify-content: space-evenly;
   grid-template-columns: 3;
@@ -16,9 +15,8 @@
   display: flex;
   justify-content: center;
   button {
-    border: 2px solid white;
-    background-color: black;
-    color: springgreen;
+    border: 1px solid black;
+    color: black;
     font-family: $font;
     cursor: pointer;
     font-size: 2rem;

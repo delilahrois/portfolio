@@ -4,27 +4,27 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-family: 'Dancing Script', cursive;
+  background-color: #ddbea9;
   align-items: center;
   padding: 2% 0;
   position: sticky;
-  background-color: black;
   top: 0;
   height: 15%;
-  font-family: $font;
   h1 {
     font-size: $large-font;
   }
   h1:hover {
     color: white;
-    transition: 0.5s ease-in-out;
+    transition: 0.28s ease-in-out;
   }
   h2 {
     font-size: 2em;
-    color: yellow;
+    color: black;
   }
   a {
     text-decoration: none;
-    color: magenta;
+    color: black;
     font-size: $small-font;
   }
   a > p:hover {
@@ -56,6 +56,5 @@
   align-items: center;
   a {
     text-decoration: none;
-    color: magenta;
   }
 }
