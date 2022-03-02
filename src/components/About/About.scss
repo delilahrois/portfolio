@@ -39,11 +39,10 @@
     font-size: $small-font;
     line-height: 6.5rem;
     text-decoration: underline;
-    font-weight: bold;
   }
   p {
-    font-size: 1.1rem;
-    padding: 1% 0;
+    padding: 2% 0;
+    font-size: 1.25rem;
   }
   a {
     text-decoration: none;
@@ -59,12 +58,14 @@
 }
 
 .subheader {
+  font-family: 'Dancing Script', cursive;
   letter-spacing: 1rem;
   margin-bottom: 1%;
 }
 
 .dramatic {
   color: #6b705c;
+  font-size: 1.5rem;
 }
 
 ::selection {

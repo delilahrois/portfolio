@@ -16,7 +16,7 @@ const About = () => {
         <img className="vermont-img" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Fall_foliage_Vermont_banner.jpg"></img>
         <div className="about-txt-container">
           <h1 className="subheader">Who I am</h1>
-          <p className="dramatic">I grew up in the Green Mountains of Vermont.</p>
+          <h2 className="dramatic">I grew up in the Green Mountains of Vermont.</h2>
 
           <p>My creative brain and giving nature led me to a life in the hospitality industry. There was a lot I loved about my life in the restaurant biz, but ultimately, I didn't find the fulfillment I was looking for. I knew my skills could be used to a greater potential, and I dreamed of a career with a deeper purpose. </p>
           
